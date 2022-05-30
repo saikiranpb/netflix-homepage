@@ -1,0 +1,447 @@
+body {
+  margin: 0;
+  font-family: "Netflix Font", sans-serif;
+  color: white;
+}
+.bg {
+  background: linear-gradient(to top, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 37%) 50%,rgb(0 0 0 / 96%) 100%),url(images/nbg.jpg);
+  height: 748.4px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.login-signup-row {
+  padding-left: 53px;
+}
+.img1 {
+  height: 55px;
+  width: auto;
+}
+.head {
+  padding-left: 50px;
+}
+.fa {
+  color: white;
+}
+.logo {
+  padding-left: 13px;
+  padding-top: 1px;
+}
+.loginfo {
+  padding-right: 3rem;
+  padding-top: 4px;
+}
+.img2 {
+  height: 25px;
+  width: auto;
+}
+.bi {
+  font-size: 15px;
+}
+div.langdiv {
+  display: inline-block;
+  border: 1px solid rgb(180, 178, 178);
+  height: 44.3px;
+  width: 118.5px;
+  font-size: 1.15rem;
+  padding: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+  border-radius: 3px;
+  margin-right: 35px;
+}
+select#langsel {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+select#langsel:focus {
+  outline: none;
+}
+.globeIcon {
+  z-index: 3;
+  color: white;
+  display: inline-block;
+}
+option {
+  /* color: white; */
+  background-color: grey;
+}
+.signin {
+  background-color: #e50914;
+  color: white;
+  width: 104px;
+  height: 41px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.25rem;
+  align-items: center;
+  margin-right: 58px;
+  padding-top: 0;
+}
+.desc1row {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 195px;
+}
+.desc1 {
+  color: white;
+  font-size: 3.95rem;
+  font-weight: 650;
+  max-width: 800px;
+  line-height: 1.1;
+}
+.desc2row {
+  margin-top: 16px;
+}
+.desc2 {
+  color: white;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+.desc3row {
+  padding-top: 13px;
+  padding-bottom: 5px;
+}
+.desc3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.inputdiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.inputemail {
+  border: 0;
+  display: flex;
+  background-color: white;
+  height: 74px;
+  width: 535px;
+  font-size: 20px;
+  padding: 17px 14px;
+  position: relative;
+  color: grey;
+}
+.startdiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.start {
+  border: 1px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2.2rem;
+  background-color: #e50914;
+  display: flex;
+  height: 74px;
+  width: 290px;
+  padding-top: 5px;
+}
+.arrow {
+  margin-left: 20px;
+}
+.iconnxt {
+  color: white;
+  font-weight: 500;
+}
+
+/* div 2 css */
+.div2 {
+  background-color: black;
+  padding: 70px 45px;
+}
+.hrc {
+  background-color: #222;
+  height: 8px;
+  /* border: #4d494a 5px; */
+}
+.divimg2 {
+  width: 600px;
+}
+.leftcont {
+  padding-left: 70px;
+}
+.div2para {
+  padding-top: 75px;
+}
+
+/* div3 */
+
+.accordion-item {
+  margin-top: 12px;
+  font-size: 31px;
+  color: white;
+  background-color: #303030;
+}
+.accordion-button {
+  color: white;
+  height: 85px;
+}
+.faqcontent {
+  background-color: #303030;
+  color: white;
+  padding-left: 35px;
+  line-height: 2.25rem;
+}
+.faq {
+  max-width: 1075px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+  margin-top: 65px;
+}
+.faqdiv {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+.faqcont {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+button.accordion-button {
+  font-size: 32px;
+}
+
+/* footer */
+.footerdiv {
+  background-color: black;
+  padding-left: 195px;
+  padding-right: 195px;
+}
+.footertxt1 {
+  color: #757575;
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.footertxt2 {
+  color: #757575;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+div.langdiv2 {
+  display: inline-block;
+  border: 0.5px solid rgb(71, 69, 69);
+  height: 59.3px;
+  width: 165.5px;
+  font-size: 1.5rem;
+  padding: 11px;
+  padding-right: 10px;
+  padding-left: 22px;
+  border-radius: 3px;
+  margin-right: 35px;
+}
+select#langsel1 {
+  border: none;
+  background-color: transparent;
+  color: rgb(151, 148, 148);
+  font-size: 21px;
+}
+.globeIcon2 {
+  z-index: 3;
+  color: rgb(185, 185, 185);
+  display: inline-block;
+}
+.hoverul {
+  text-decoration: none;
+  color: #757575;
+}
+.hoverul:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #757575;
+}
+
+/*                */
+/*  MEDIA QUERIES */
+/*                */
+@media only screen and (max-width: 412px) {
+  .img1 {
+    height: 30px;
+  }
+  .startdiv {
+    justify-content: center;
+  }
+  .inputdiv {
+    justify-content: center;
+  }
+  .desc1row {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+  }
+  .desc1 {
+    font-size: 2rem;
+  }
+  .desc2 {
+    font-size: 1.3rem;
+  }
+  .desc23 {
+    font-size: 1rem;
+  }
+  .desc3row {
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+  div.langdiv {
+    height: 30px;
+    width: 100px;
+    font-size: 0.95rem;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    margin-right: 15px;
+  }
+  .globeIcon {
+    size: 0.8rem;
+  }
+  .inputemail {
+    height: 65px;
+    width: 300px;
+  }
+  .footerdiv {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footertxt1 {
+    font-size: 15px;
+  }
+  .footertxt2 {
+    font-size: 9px;
+  }
+  .faqcont {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .accordion-item {
+    font-size: 24px;
+  }
+  button.accordion-button {
+    font-size: 20px;
+  }
+  .faq {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img1 {
+    height: 33px;
+  }
+  div.langdiv {
+    margin-right: 25px;
+    padding: 3px;
+  }
+  .login-signup-row {
+    padding-left: 5px;
+  }
+  .loginfo {
+    padding-right: 1rem;
+  }
+  .dropdown-toggle {
+    height: 30px;
+    width: 85px;
+    margin-right: 3px;
+  }
+  .signin {
+    height: 30px;
+    width: 71px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+  }
+  .desc1row {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+  }
+  .start {
+    height: 50px;
+    width: 180px;
+    font-size: 1rem;
+    padding-top: 5px;
+  }
+  .startdiv {
+    padding-top: 20px;
+  }
+  .inputemail {
+    height: 65px;
+    width: 350px;
+  }
+
+  .footerdiv {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footertxt1 {
+    font-size: 18px;
+  }
+  .footertxt2 {
+    font-size: 14px;
+  }
+
+  .accordion-item {
+    font-size: 24px;
+  }
+}
+
+
+@media only screen and (max-width: 941px) and (min-width: 412px) {
+  .startdiv {
+    justify-content: center;
+  }
+  .inputdiv {
+    justify-content: center;
+  }
+  .desc1 {
+    font-size: 2.5rem;
+  }
+  .desc1row {
+    padding-top: 50px;
+  }
+  .desc2 {
+    font-size: 1.5rem;
+  }
+  .desc3row {
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+  .start {
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+  .footerdiv {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .footertxt1 {
+    font-size: 18;
+  }
+  .footertxt2 {
+    font-size: 14;
+  }
+  button.accordion-button {
+    font-size: 28px;
+  }
+  .faq {
+    font-size: 30px;
+  }
+  .faqcont {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 941px) {
+  .footerdiv {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .faqcont {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
